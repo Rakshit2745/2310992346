@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+        }
+        .logo {
+            height: 50px;
+        }
+        .nav-links a {
+            color: #fff;
+            margin-left: 20px;
+            text-decoration: none;
+        }
+        .banner {
+            background-color: #48add8;
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .content {
+            padding: 20px;
+        }
+        .content h2 {
+            color: #333;
+        }
+        .content p {
+            color: #555;
+            line-height: 1.6;
+        }
+        .subscribe-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .subscribe-form input {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+            max-width: 400px;
+        }
+        .subscribe-form button {
+            padding: 10px 20px;
+            background-color: #00796b;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .subscribe-form button:hover {
+            background-color: #004d40;
+        }
+        footer {
+            background-color: #19191a;
+            color: #fff;
+            text-align: center;
+            padding: 10px 20px;
+        }
+        @media (min-width: 600px) {
+            .content {
+                display: flex;
+                justify-content: space-between;
+                padding: 40px;
+            }
+            .content section {
+                flex: 1;
+                margin-right: 20px;
+            }
+            .content section:last-child {
+                margin-right: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo1.png" alt="Newsletter" class="logo">
+        <nav class="nav-links">
+            <a href="gallery.html">Gallery</a>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <h1>Welcome to Our Newsletter Website</h1>
+        </section>
+        <section class="content">
+            <section>
+                <h2>About Us</h2>
+                <p>Welcome to our newsletter website where we bring you the latest updates and stories from around the world. Stay informed with our daily news articles, feature stories, and in-depth analysis.</p>
+                <h2>Recent Articles</h2>
+                <p>Check out our latest articles on a variety of topics, from current events to lifestyle tips and more. Visit our gallery page to explore.</p>
+            </section>
+            <section>
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>Join our mailing list to receive the latest news and updates directly in your inbox. Simply enter your email address below and subscribe to stay connected.</p>
+                <form action="#" class="subscribe-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p>Contact : rakshit.oct27@gmail.com | +91 6283748819</p>
+    </footer>
+</body>
+</html>
